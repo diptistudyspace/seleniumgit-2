@@ -10,7 +10,7 @@ public class edgedriver {
 			public static void main(String[] args) throws Exception {
 				EdgeDriver driver = new EdgeDriver();
 				try {
-					driver.navigate().to("https://bing.com");
+					driver.navigate().to("https://github.com/diptistudyspace/seleniumgit-2");
 
 					WebElement element = driver.findElement(By.id("sb_form_q"));
 					element.sendKeys("WebDriver");
